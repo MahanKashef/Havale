@@ -34,7 +34,7 @@ class App extends Component {
 
           <div className='user'>
             <h4>2</h4>
-            <img className='woman' alt='woman' src='/static/img/woman2-removebg-preview.png'/>
+            <img className='woman' alt='woman' src='/static/img/woman.png'/>
             <p className='fullName'>یاسمن محمدی</p>
             <p className='phone'>0936xxxxx54</p>
           </div>
@@ -59,7 +59,7 @@ class App extends Component {
 
           <div className='user'>
             <h4>2</h4>
-            <img className='woman' alt='woman' src='/static/img/woman2-removebg-preview.png'/>
+            <img className='woman' alt='woman' src='/static/img/woman.png'/>
             <p className='fullName'>یاسمن معتمدی</p>
             <p className='phone'>0936xxxxx54</p>
           </div>
