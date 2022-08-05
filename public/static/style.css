@@ -23,7 +23,45 @@ body {
   font-family: poppins;
 }
 
-.register {
+.discription {
+  text-align: right;
+}
+
+.discription > button {
+  position: absolute;
+  top: 2%;
+  right: 7%;
+  padding: 5px 10px;
+  background-color: #1DA1F2;
+  width: 150px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 18px #87aac2;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.discription > button:hover {
+  background-color: white;
+  box-shadow: 1px 1px 18px white;
+}
+
+.discription > button:hover > .linkToAbout > .titleDis {
+  color: black;
+}
+
+.linkToAbout {
+  text-decoration: none;
+}
+
+.titleDis {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition:  all ease-in-out 0.2s;
+}
+
+.registerCard {
   margin-top: 8%;
   position: relative;
   width: 850px;
@@ -33,6 +71,15 @@ body {
   box-sizing: border-box;
   background: #ecf0f3;
   /* box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white; */
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  color: black;
+  font-size: 30px;
 }
 
 .brand-logo {
@@ -106,7 +153,7 @@ input {
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 
-button {
+.registerCard button {
   color: white;
   margin-top: 20px;
   background: #1DA1F2;
@@ -118,11 +165,11 @@ button {
   transition: 0.5s;
 }
 
-button:hover {
+.registerCard button:hover {
   box-shadow: none;
 }
 
-a {
+.registerCard a {
   position: absolute;
   font-size: 8px;
   bottom: 4px;
@@ -202,4 +249,62 @@ h1 {
 
 .winners-title > i {
   color: gold;
+}
+
+/* Home End */
+
+
+/* About Start */
+
+.about > .linkToHome {
+  position: absolute;
+  top: 2%;
+  right:7%;
+  color: white;
+  background-color: #1DA1F2;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 5px 12px;
+  box-shadow: 1px 1px 18px #87aac2;
+  transition: all ease-in-out 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+
+}
+
+.aboutCard {
+  margin-top: 8%;
+  margin-bottom: 7%;
+  position: relative;
+  width: 850px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+}
+
+.about > .linkToHome > i {
+  align-self: center;
+  margin-top: 2px;
+}
+
+.about .linkToHome:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 18px white;
+}
+
+/* About End */
+
+
+
+/* Error Page Start */
+
+
+.error h1 {
+  color: white;
 }
